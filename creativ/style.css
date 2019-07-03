@@ -8,22 +8,26 @@ a{
 header{
     width: 100%;
 }
+.global_img{
+    min-height: 200px;
+}
 .global_menu{
     display: flex;  
 }
 .logo{
     margin-left: 19.5%;
     margin-top: 30px;
-    float: left;
+    max-width: 200px;
+    max-height: 50px;
 }
 .global_menu .menu{
     margin-left: 16%;
     margin-top: 45px;
-    display: flex;
     align-items: center;
     height: 40px;
     width: 100%;
     margin-bottom: 50px;
+    display: flex;
 }
 .global_menu .menu a{
     vertical-align: middle;
@@ -37,6 +41,7 @@ header{
 }
 .icon{
     display: none;
+    color: black;
 }
 
 
@@ -52,7 +57,7 @@ header{
     width: 100%;
     text-align: center;
     height: 500px;
-    margin-top: 82px;
+    margin-top: 0px;
 }
 .list1 h1 {
     font-size: 26px;
@@ -98,6 +103,7 @@ header{
     color: #8a8a8a;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: ;
     text-transform: uppercase;
     font-size: 10px;
     font-weight: 900;
@@ -123,4 +129,85 @@ header{
     position: relative;
     top: 22px;
     max-width: 100%;
+}
+.section_icon{
+    position: relative;
+    top: 92px;
+}
+.list2{
+    margin-top: 22px;
+    padding-top: 80px;
+    background: #383838;
+    width: 100%;
+}
+.list2 h1{
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #e4e4e4;
+}
+.list2 p{
+    font-size: 16px;
+    color: #606060;
+    font-weight: 500;
+}
+.list2 h1 span{
+     color: #00a99d;     
+}
+.list2_wrapper_top{
+    width: 53.2%;
+    margin: 0 auto;
+    text-align: center;
+}
+.list2_content_wrapper{
+    width: 61%;
+    margin: 0 auto;
+    
+}
+.left_blocks{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    margin-top: 95px;
+}
+.content_left_block img{
+    margin-bottom: 100px;
+}
+.content_left_block:last-child{
+    margin-bottom: -20px;
+}
+
+.content_left_block h2{
+    position: relative;
+    left: 34px;
+    bottom: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #e4e4e4;
+}
+.content_left_block p{
+    position: relative;
+    top: 7px;
+    left: 34px;
+    width: 290px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7a7a7a;
+}
+.list2_global_content{
+    display: flex;
+}
+.right_block{
+    margin-left: 150px;
+    margin-top: 60px;
+    margin-bottom: -5px;
+ 
+}
+.left_right_h1:first-child{
+    position: relative;
+    right: 20px;
+}
+.left_right_h1:last-child{
+    position: relative;
+    right: -20px;
 }
