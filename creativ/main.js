@@ -10,3 +10,4 @@ if(jsMenu.className === "menu"){
         jsMenu.className = "menu";
     }
 }
+
